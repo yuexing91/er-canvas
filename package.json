@@ -1,0 +1,21 @@
+{
+  "name": "er-canvas",
+  "version": "0.1.1",
+  "scripts": {
+    "dev": "rollup -w -c ./build/rollup.config.dev.js --sourcemap",
+    "build": "rollup -c ./build/rollup.config.prod.js"
+  },
+  "devDependencies": {
+    "rollup": "^2.58.3",
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-transform-classes": "^7.15.4",
+    "@babel/preset-env": "^7.15.8",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-postcss": "^4.0.1",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "main": "./dist/index.js"
+}

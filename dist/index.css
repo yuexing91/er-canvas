@@ -1,0 +1,40 @@
+.er {
+    position: relative;
+    border: 1px solid #ccc;
+    outline: none;
+    overflow: auto;
+}
+
+.er canvas {
+    position: absolute;
+}
+
+.er-table {
+    position: absolute;
+    border: 1px solid #ccc;
+    height: 200px;
+    width: 200px;
+    background: #fff;
+    user-select: none;
+}
+
+.er-table-body {
+    height: calc(100% - 30px);
+    overflow: auto;
+}
+
+.er-table-header {
+    background: #1890ff;
+    cursor: move;
+    color: #fff;
+    padding: 4px 16px;
+}
+
+.er-table.er-table-selected .er-table-header{
+    opacity: .8;
+}
+
+.er-table-field {
+    border-top: 1px solid #ccc;
+    padding: 4px 16px;
+}
